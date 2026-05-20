@@ -285,7 +285,7 @@
             "backend": "s3",
             "config": {
               "value": {
-                "bucket": "tfstate-dev-us-east-1-jpjtof",
+                "bucket": "devopsdemo-syiixy",
                 "key": "eks/dev/terraform.tfstate",
                 "region": "us-east-1"
               },
@@ -498,7 +498,7 @@
             "backend": "s3",
             "config": {
               "value": {
-                "bucket": "tfstate-dev-us-east-1-jpjtof",
+                "bucket": "devopsdemo-syiixy",
                 "key": "vpc/dev/terraform.tfstate",
                 "region": "us-east-1"
               },

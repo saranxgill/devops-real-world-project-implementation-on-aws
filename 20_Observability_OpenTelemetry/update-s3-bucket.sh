@@ -16,7 +16,7 @@ CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 # Old bucket name to replace
-OLD_BUCKET="tfstate-dev-us-east-1-jpjtof"
+OLD_BUCKET="devopsdemo-syiixy"
 
 echo ""
 echo "============================================="

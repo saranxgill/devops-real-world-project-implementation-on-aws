@@ -51,7 +51,7 @@ terraform plan
 terraform apply -auto-approve
 
 # Make a note of the S3 bucket name
-Example: tfstate-dev-us-east-1-jpjtof
+Example: devopsdemo-syiixy
 ```  
 ---
 
@@ -78,7 +78,7 @@ terraform {
   }
 # Remote Backend 
   backend "s3" {
-    bucket         = "tfstate-dev-us-east-1-jpjtof" # <-- Replace with your actual bucket name
+    bucket         = "devopsdemo-syiixy" # <-- Replace with your actual bucket name
     key            = "vpc/dev/terraform.tfstate"
     region         = "us-east-1"
     encrypt        = true
